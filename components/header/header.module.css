@@ -1,0 +1,20 @@
+.header {
+  background: #347fcb;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0px 8px 8px -6px #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  z-index: 10;
+}
+.anchor {
+  margin-left: 160px;
+}
+.active {
+  font-weight: bolder;
+}
